@@ -16,7 +16,7 @@ puts "----------"
 @store1.employees.create(first_name: "Neymar", last_name: "Santos", hourly_rate: 170)
 
 @store2.employees.create(first_name: "Cristiano", last_name: "Ronaldo", hourly_rate: 150)
-@store2.employees.create(first_name: "Lionel", last_name: "Messi", hourly_rate: 240)
-@store2.employees.create(first_name: "Heungmin", last_name: "Son", hourly_rate: 300)
+@store2.employees.create(first_name: "Lionel", last_name: "Messi", hourly_rate: 200)
+@store2.employees.create(first_name: "Heungmin", last_name: "Son", hourly_rate: 200)
 @store2.employees.create(first_name: "Mohammed", last_name: "Salah", hourly_rate: 120)
-@store2.employees.create(first_name: "Kylian", last_name: "Mbappe", hourly_rate: 550)
+@store2.employees.create(first_name: "Kylian", last_name: "Mbappe", hourly_rate: 200)

@@ -10,3 +10,7 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+store_name = $stdin.gets.chomp
+random_store = Store.new(name: store_name)
+random_store.valid?
+puts random_store.errors.full_messages
